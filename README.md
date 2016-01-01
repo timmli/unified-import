@@ -1,4 +1,4 @@
-# unified-import
+# unified-support
 Import/export formats for bibliographic tools to add support of the [Unified Style Sheet](http://www.linguisticsociety.org/resource/unified-style-sheet):
 - jabref (export BibTeX entries as plain text in Unified Style)
 - papercite (display BibTeX entries in Unified Style)
