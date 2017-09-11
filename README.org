@@ -1,0 +1,23 @@
+* unified-support
+
+Import/export formats for bibliographic tools to add support of the [[http://www.linguisticsociety.org/resource/unified-style-sheet][Unified Style Sheet]]: 
+- [[https://github.com/JabRef/jabref][jabref]] (export BibTeX entries as plain text in Unified Style)
+- [[https://github.com/bpiwowar/papercite][papercite]] (display BibTeX entries in Unified Style)
+
+A CSL style definition can be found [[https://www.zotero.org/styles/unified-style-linguistics][here]]. For an implementation in BibLaTeX, have a look at [[https://github.com/semprag/biblatex-sp-unified][biblatex-sp-unified]].
+
+** jabref
+
+Documentation of the specification language: https://help.jabref.org/en/CustomExports
+
+*** Installation
+
+=Options= \Rightarrow =Manage custom exports= \Rightarrow =Add new= 
+
+=Export new:= =unified_tex= or =unified_utf= or any other name
+=Main layout file:= path to =unified_xxx.layout=
+=Extension:= =.tex= or =.txt= or any other reasonable extension
+
+*** Issues
+
+- [ ] =Replace("--,–")= does not work?
