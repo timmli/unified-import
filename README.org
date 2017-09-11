@@ -14,9 +14,9 @@ Documentation of the specification language: https://help.jabref.org/en/CustomEx
 
 =Options= \Rightarrow =Manage custom exports= \Rightarrow =Add new= 
 
-=Export new:= =unified_tex= or =unified_utf= or any other name
-=Main layout file:= path to =unified_xxx.layout=
-=Extension:= =.tex= or =.txt= or any other reasonable extension
+| =Export new:=       | =unified_tex= or =unified_utf= or any other name   |
+| =Main layout file:= | path to =unified_xxx.layout=                       |
+| =Extension:=        | =.tex= or =.txt= or any other reasonable extension |
 
 *** Issues
 
